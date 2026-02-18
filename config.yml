@@ -1,0 +1,87 @@
+# Galaxy Profile README Configuration
+# Copy this file to config.yml and customize it to make it your own!
+
+# Your GitHub username (required)
+username: gtkpad
+
+# Profile information displayed in the galaxy header
+profile:
+  name: "Gabriel Padilha"
+  tagline: "Senior Software Engineer | .NET & Solutions Architect"
+  company: "CI&T"
+  location: "Pelotas - RS"
+  # Bio sintetizada com foco em Senioridade, Arquitetura e Liderança Técnica
+  bio: |
+    Specialist in distributed systems and microservices architecture.
+    Passionate about DDD, Clean Architecture, and empowering teams through mentorship.
+    Building robust solutions with .NET, Go, and Kubernetes.
+  philosophy: '"Architecture is about making the important things easy and the difficult things possible."'
+
+# Social links displayed at the bottom of the profile
+social:
+  email: "gabrielvargaspadilha@gmail.com" #
+  linkedin: "gabriel-vargas-padilha-03b71a185" #
+  website: "https://github.com/gtkpad"
+
+# Galaxy arms represent your core focus areas
+galaxy_arms:
+  - name: "Backend & Arch"
+    color: "synapse_cyan"
+    items:
+      - ".NET / C#" #
+      - "NodeJS"
+      - "Go (Golang)" #
+      - "DDD"
+  - name: "Frontend"
+    color: "dendrite_violet"
+    items:
+      - "React" #
+      - "TypeScript" #
+      - "React Native" #
+      - "Blazor"
+  - name: "DevOps & Cloud"
+    color: "axon_amber"
+    items:
+      - "Kubernetes" #
+      - "AWS / Azure" #
+      - "CI/CD" #
+
+# Featured projects shown as constellation stars
+# Baseado nos seus repositórios públicos pinnados e recentes
+projects:
+  - repo: "gtkpad/CQRSTodoExample"
+    arm: 0 # Backend Arm
+    description: "Implementation of CQRS pattern illustrating Clean Architecture principles in C#."
+  - repo: "gtkpad/in-memory-db-c"
+    arm: 0 # Backend Arm
+    description: "High-performance custom in-memory database implementation using C++."
+
+# Theme color overrides (kept default deep space palette)
+theme:
+  void: "#080c14"
+  nebula: "#0f1623"
+  star_dust: "#1a2332"
+  synapse_cyan: "#00d4ff"
+  dendrite_violet: "#a78bfa"
+  axon_amber: "#ffb020"
+  text_bright: "#f1f5f9"
+  text_dim: "#94a3b8"
+  text_faint: "#64748b"
+
+# Stats configuration
+stats:
+  metrics:
+    - "commits"
+    - "stars"
+    - "prs"
+    - "issues"
+    - "repos"
+
+# Language display settings
+languages:
+  exclude:
+    - "HTML"
+    - "CSS"
+    - "Shell"
+    - "Makefile"
+  max_display: 8
